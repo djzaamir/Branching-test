@@ -3,6 +3,8 @@ body {
 }
 
 #parent-box{
+  text-align: center;
+  margin: 10px;
   display: inline-block;
   width: 200px;
   height: 200px;
@@ -22,6 +24,11 @@ body {
 }
 
 #box:hover{
+  transform: translate(200px ,  200px) rotate(50deg);
+  background-color: yellow;
+}
+
+.addEffect {
   transform: translate(200px ,  200px) rotate(50deg);
   background-color: yellow;
 }
