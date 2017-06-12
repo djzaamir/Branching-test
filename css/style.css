@@ -2,12 +2,26 @@ body {
   background-color: black;
 }
 
+#parent-box{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 10px solid white;
+  border-radius: 50px;
+}
+
 #box {
+  display: inline-block;
   width: 200px;
   height: 200px;
   background-color: green;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out , background-color 300ms ease-in-out;
+  border: 1px solid green;
+  border-radius: 50px;
 }
+
 #box:hover{
-  transform: translate(200px ,  200px) rotate(20deg);
+  transform: translate(200px ,  200px) rotate(50deg);
+  background-color: yellow;
 }
